@@ -104,6 +104,10 @@ nav a:hover {
     text-align: left;
 }
 
+.project-item a:hover{
+    color: #FF9D00;
+}
+
 .h2 {
     font-size: 2em;
     margin: 1em 0;

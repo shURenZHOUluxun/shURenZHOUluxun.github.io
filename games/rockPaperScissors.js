@@ -47,10 +47,27 @@ const determineWinner = (userChoice, computerChoice) => {
 }
 
 const playGame = () => {
-  const userChoice = getUserChoice('rock');
-  const computerChoice = getComputerChoice();
-  console.log(`user: ${userChoice}, computer: ${computerChoice}`);
-  console.log(determineWinner(userChoice, computerChoice));
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.choice-button');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const choice = btn.dataset.choice || btn.textContent.trim().toLowerCase();
+        const userChoice = getUserChoice(choice);
+        if (!userChoice) return; // invalid input
+        const computerChoice = getComputerChoice();
+        const result = determineWinner(userChoice, computerChoice);
+        console.log(`user: ${userChoice}, computer: ${computerChoice}`);
+        console.log(result);
+        const out = document.getElementById('result-text');
+        if (out) out.textContent = `You: ${userChoice} - Computer: ${computerChoice} -> ${result}`;
+      });
+    });
+  });
+  // const userChoice = getUserChoice('rock');
+  // const computerChoice = getComputerChoice();
+  // console.log(`user: ${userChoice}, computer: ${computerChoice}`);
+  // console.log(determineWinner(userChoice, computerChoice));
 }
 
+playGame()
 
