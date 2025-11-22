@@ -38,7 +38,7 @@ header{
     display: flex;
     align-items: center;
     background-color: #FF9D00;
-    border-bottom: #7B542F 0.2em solid;
+    border-bottom: #B6771D 0.2em solid;
 }
 
 nav {
@@ -65,28 +65,37 @@ nav a:hover {
 
 #about-me {
     display: grid;
-    grid-template-areas: 1fr 1fr / 1fr 1fr;
+    grid-template-areas: 1fr 1fr 1fr / 1fr 1fr;
     width: 800px;
     margin: 2em;
     text-align: left;
 }
 
-#about-me-header {
+#about-me h2 {
     grid-area: 1 / 1 / 2 / 2;
     align-self: end;
 }
 
-#about-me-discription {
+#about-me .discription {
     grid-area: 2 / 1 / 3 / 2;
     align-self: start;
 }
 
-#about-me-image {
+#about-me .Contact-info {
+    grid-area: 3 / 1 / 4 / 2;
+    align-self: start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5em 0 0 0;
+}
+
+#about-me img {
     width: 400px;
     height: auto;
-    grid-area: 1 / 2 / 3 / 3;
+    grid-area: 1 / 2 / 4 / 3;
     justify-self: center;
     align-self: center;
+    border: white 0.2em solid;
 }
 
 #projects {
