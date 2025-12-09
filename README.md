@@ -2,7 +2,7 @@
 
 Personal GitHub Pages site showcasing projects and small web games.
 
-Live demo: https://shURenZHOUluxun.github.io
+Live demo: 
 
 ## Features
 - Static portfolio site (HTML, CSS, JS)
