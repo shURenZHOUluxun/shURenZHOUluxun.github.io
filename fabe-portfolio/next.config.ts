@@ -2,7 +2,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: 'export',
+  basePath: '/fabe-portfolio', 
+  assetPrefix: '/fabe-portfolio/',
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
