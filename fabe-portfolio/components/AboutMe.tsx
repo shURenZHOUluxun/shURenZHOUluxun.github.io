@@ -10,7 +10,7 @@ export default function AboutMe() {
             <li className="contact-item"><a href="https://www.linkedin.com/in/jiayi-zeng-0207/">LinkedIn: Click Here</a></li>
             <li className="contact-item"><a href="https://github.com/shURenZHOUluxun">Github: Click Here</a></li>
             </ul>
-            {/* <Image alt="about me" width={400} height={400} src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" /> */}
+            <Image alt="about me" width={400} height={400} src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
         </div>
     );
 
