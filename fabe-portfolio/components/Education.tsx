@@ -1,10 +1,30 @@
+import Image from 'next/image';
+import styles from'./styles/education.module.css';
+import { FaGraduationCap } from "react-icons/fa";
+
 export default function Education() {
     return (
         <div className="education">
             <h2 className="h2">Education</h2>
-            <ul className="education-list">
-                <li className="education-item">M.Eng. in Mechanical Engineering, University of Toronto</li>
-                <li className="education-item">B.Sc. in Computer Science, University of Toronto</li>
+            <div className={styles.imageContainer}>
+                <Image 
+                    className={styles.image} 
+                    src='/uoft_grass.webp' 
+                    alt="University of Toronto Logo" 
+                    width={400} 
+                    height={400} />
+            </div>
+
+            <ul className={styles.educationList}>
+                <Image src='/UofT_Logo.png' alt="University of Toronto Logo" width={300} height={300} />
+                <li className={styles.educationItem}>
+                    <FaGraduationCap className={styles.icon} />
+                    <p>M.Eng. in Mechanical Engineering, University of Toronto</p>
+                </li>
+                <li className={styles.educationItem}>
+                    <FaGraduationCap className={styles.icon} />
+                    <p>B.Sc. in Computer Science, University of Toronto</p>
+                </li>
             </ul>
         </div>
     );

@@ -1,5 +1,5 @@
 .icon {
-  background: white;
+  background-color: white;
   padding: 0.1em;
   border-radius: 50%;
   transition: 0.25s ease-in-out;
@@ -9,6 +9,7 @@
 
 .icon:hover {
     background-color: #FFCF71;
+    font-size: 2.6em;
 }
 
 #aboutme {
@@ -53,4 +54,5 @@
 .contactitem p {
     display: inline-block;
     margin-left: 0.5em;
+    font-weight: bold;
 }

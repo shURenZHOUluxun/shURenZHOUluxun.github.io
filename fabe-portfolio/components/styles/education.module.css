@@ -1,0 +1,36 @@
+.image {
+    border-radius: 25%;
+    /* background-color: #FF9D00; */
+    border: #7B542F 0.4em solid;
+}
+
+.imageContainer {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.educationList {
+    display: inline-block;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+.educationItem p {
+    display: inline-block;
+    font-weight: bold;
+    color: #002554;
+}
+
+.icon{
+  background-color: #FFCF71;
+  padding: 0.1em;
+  /* border-radius: 50%;
+  transition: 0.25s ease-in-out; */
+  font-size: 2.5em;
+  display: inline-block;
+  margin: 0.1em;
+}
+
+.icon path {
+    fill: #002554;
+}

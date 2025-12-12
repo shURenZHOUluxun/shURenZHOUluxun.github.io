@@ -29,13 +29,13 @@ body {
     box-sizing: border-box;
     font-size: 16px;
     background-color: #FFCF71;
-    color: #7B542F;
+    color: #002554;
 }
 
 h1 {
     font-size: 2.5em;
     margin: 0.5em 0;
-    color: black;
+    color: #002554;
 }
 
 .logo {
@@ -129,4 +129,18 @@ nav a:hover {
     color: #FFCF71;
     margin: 0.2em 0;
     background-color: #7B542F;
+}
+
+.icon {
+  background: white;
+  padding: 0.1em;
+  border-radius: 50%;
+  transition: 0.25s ease-in-out;
+  font-size: 2.5em;
+  display: inline-block;
+  margin: 0.1em;
+}
+
+.icon:hover {
+    background-color: #FFCF71;
 }
