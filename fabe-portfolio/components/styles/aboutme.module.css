@@ -45,3 +45,12 @@
     align-self: center;
     border: white 0.2em solid;
 }
+
+.contactitem {
+    margin: 0.5em 0;
+}
+
+.contactitem p {
+    display: inline-block;
+    margin-left: 0.5em;
+}

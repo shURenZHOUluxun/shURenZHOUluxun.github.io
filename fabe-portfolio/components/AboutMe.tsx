@@ -9,20 +9,20 @@ export default function AboutMe() {
             <h2 className="h2">About Me</h2>
             <p className="description">Hello! I&apos;m Fabe Jiayi Zeng, a software engineer passionate about web development and design. This is my personal website where I share my projects and interests.</p>
             <ul className="Contact-info">
-                <li className="contact-item">
+                <li className={styles.contactitem}>
                     <MdEmail className={styles.icon}/>
-                    Email: zengjiayifabe@outlook.com
+                    <p>Email: zengjiayifabe@outlook.com</p>
                 </li>
-                <li className="contact-item">
+                <li className={styles.contactitem}>
                     <a href="https://www.linkedin.com/in/jiayi-zeng-0207/">
                         <FaLinkedin className={styles.icon}/>
-                        LinkedIn: Click Here
+                        <p>LinkedIn: Click Here</p>
                     </a>
                     </li>
-                <li className="contact-item">
+                <li className={styles.contactitem}>
                     <a href="https://github.com/shURenZHOUluxun" >
                         <FaGithub className={styles.icon}/>
-                        Github: Click Here
+                        <p>Github: Click Here</p>
                     </a>
                 </li>
             </ul>
