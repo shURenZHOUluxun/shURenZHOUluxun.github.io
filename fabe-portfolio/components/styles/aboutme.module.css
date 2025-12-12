@@ -1,0 +1,11 @@
+.icon {
+  background: white;
+  padding: 0.1em;
+  border-radius: 50%;
+  transition: 0.25s ease-in-out;
+  font-size: 2.5em;
+}
+
+.icon:hover {
+    background-color: #FFCF71;
+}
