@@ -12,11 +12,11 @@ export default function Education() {
                     src='/uoft_grass.webp' 
                     alt="University of Toronto Logo" 
                     width={400} 
-                    height={400} />
+                    height={270.66} />
             </div>
 
             <ul className={styles.educationList}>
-                <Image src='/UofT_Logo.png' alt="University of Toronto Logo" width={300} height={300} />
+                <Image src='/UofT_Logo.png' alt="University of Toronto Logo" width={300} height={123.17} />
                 <li className={styles.educationItem}>
                     <FaGraduationCap className={styles.icon} />
                     <p>M.Eng. in Mechanical Engineering, University of Toronto</p>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { RiProfileFill } from "react-icons/ri";
 import styles from './styles/aboutme.module.css';
 
 export default function AboutMe() {
@@ -23,6 +24,12 @@ export default function AboutMe() {
                     <a href="https://github.com/shURenZHOUluxun" >
                         <FaGithub className={styles.icon}/>
                         <p>Github: Click Here</p>
+                    </a>
+                </li>
+                <li className={styles.contactitem}>
+                    <a href="/Fabe_Zeng_CV.pdf" download="Fabe_Zeng_CV.pdf">
+                        <RiProfileFill className={styles.icon}/>
+                        <p>Download CV: Click Here</p>
                     </a>
                 </li>
             </ul>

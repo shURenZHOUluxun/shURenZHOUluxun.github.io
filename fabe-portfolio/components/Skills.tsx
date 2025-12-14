@@ -4,7 +4,7 @@ import { TiHtml5 } from "react-icons/ti";
 import { BiSolidFileCss, BiLogoTypescript } from "react-icons/bi";
 import { SiNextdotjs, SiCplusplus, SiMongodb} from "react-icons/si";
 import styles from './styles/skills.module.css';
-import { TbSql, TbBrandMysql } from "react-icons/tb";
+import { TbSql, TbBrandMysql, TbBrandThreejs } from "react-icons/tb";
 
 export default function Skills() {
     return (
@@ -21,12 +21,13 @@ export default function Skills() {
                     
                 </li>
                 <li className="skill-item">
-                    <p>Web Development: HTML, CSS, React, Node.js</p>
+                    <p>Web Development: HTML, CSS, React, Node.js, Three.js</p>
                     <TiHtml5 title="HTML" className={styles.icon}/>
                     <BiSolidFileCss title="CSS" className={styles.icon}/>
                     <FaReact title="React.js" className={styles.icon}/>
                     <FaNode title="Node.js" className={styles.icon}/>
                     <SiNextdotjs title="Next.js" className={styles.icon}/>
+                    <TbBrandThreejs title="Three.js" className={styles.icon}/>
                 </li>
                 <li className="skill-item">
                     <p>Databases: MySQL, MongoDB</p>
