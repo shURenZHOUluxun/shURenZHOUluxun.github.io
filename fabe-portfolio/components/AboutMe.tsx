@@ -2,7 +2,7 @@ import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { RiProfileFill } from "react-icons/ri";
-import styles from './styles/aboutme.module.css';
+import styles from './styles/aboutmehome.module.css';
 
 export default function AboutMe() {
     return (

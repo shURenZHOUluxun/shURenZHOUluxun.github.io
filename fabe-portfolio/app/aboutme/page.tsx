@@ -6,6 +6,7 @@ export default function AboutMePage() {
   return (
     <div>
         {/* <AboutMe /> */}
+        
         <Education />
         <Skills />  
         <Experience />
