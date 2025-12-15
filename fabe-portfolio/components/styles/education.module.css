@@ -1,18 +1,30 @@
+.education {
+    width: 40em;
+    /* width: 100%; */
+}
+
 .image {
-    border-radius: 25%;
+    border-radius: 5em;
     /* background-color: #FF9D00; */
     border: #7B542F 0.4em solid;
 }
 
 .imageContainer {
-    display: inline-block;
-    margin-right: 20px;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
 }
 
 .educationList {
-    display: inline-block;
+    display: block;
     padding-left: 20px;
-    vertical-align: top;
+    /* vertical-align: top; */
+}
+
+.educationItem {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
 }
 
 .educationItem p {
@@ -33,4 +45,9 @@
 
 .icon path {
     fill: #002554;
+}
+
+.education h2 {
+    text-align: center;
+    color: #002554;
 }
