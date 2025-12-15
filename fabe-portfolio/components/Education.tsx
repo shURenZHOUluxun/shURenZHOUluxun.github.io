@@ -5,16 +5,6 @@ import { FaGraduationCap } from "react-icons/fa";
 export default function Education() {
     return (
         <div className="education">
-            <h2 className="h2">Education</h2>
-            <div className={styles.imageContainer}>
-                <Image 
-                    className={styles.image} 
-                    src='/uoft_grass.webp' 
-                    alt="University of Toronto Logo" 
-                    width={400} 
-                    height={270.66} />
-            </div>
-
             <ul className={styles.educationList}>
                 <Image src='/UofT_Logo.png' alt="University of Toronto Logo" width={300} height={123.17} />
                 <li className={styles.educationItem}>
@@ -26,6 +16,18 @@ export default function Education() {
                     <p>B.Sc. in Computer Science, University of Toronto</p>
                 </li>
             </ul>
+            
+            {/* <h2 className="h2">Education</h2> */}
+            <div className={styles.imageContainer}>
+                <Image 
+                    className={styles.image} 
+                    src='/uoft_grass.webp' 
+                    alt="University of Toronto Logo" 
+                    width={400} 
+                    height={270.66} />
+            </div>
+
+            
         </div>
     );
 }

@@ -7,8 +7,11 @@ import styles from './styles/aboutmehome.module.css';
 export default function AboutMe() {
     return (
         <div id={styles.aboutme}>
-            <h2 className="h2">About Me</h2>
-            <p className="description">Hello! I&apos;m Fabe Jiayi Zeng, a software engineer passionate about web development and design. This is my personal website where I share my projects and interests.</p>
+            {/* <h2 className="h2">About Me</h2> */}
+            <p className="description">Hello! I&apos;m Fabe Jiayi Zeng, 
+                a software engineer passionate about web development and design. 
+                This is my personal website where I share my projects and interests.
+            </p>
             <ul className="Contact-info">
                 <li className={styles.contactitem}>
                     <MdEmail className={styles.icon}/>

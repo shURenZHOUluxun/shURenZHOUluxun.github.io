@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 6fr;
   gap: 0.5em;
   padding: 0.2em; 
-  width: 80em;
+  width: 60em;
 }
 
 .buttonDivider{
@@ -16,9 +16,9 @@
   padding: 0.5em;
   background-color: #f0f0f0;
   border: 0.2em solid #7B542F;
-  border-radius: 8%;
+  border-radius: 9999em;
   cursor: pointer;
-  text-align: left;
+  text-align: center;
   margin: 1em 0;
 }
 
