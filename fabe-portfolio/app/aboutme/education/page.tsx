@@ -1,9 +1,9 @@
 import Education from "@/components/Education";
-import FadeAnimation from "@/components/animation/FadeAnimation";
+import SlideUpAnimation from "@/components/animation/SlideUpAnimation";
 export default function EducationPage() {
     return (
-      <FadeAnimation >
+      <SlideUpAnimation> 
         <Education />
-      </FadeAnimation>
+      </SlideUpAnimation>
     )
   }

@@ -1,7 +1,10 @@
+import SlideUpAnimation from "@/components/animation/SlideUpAnimation";
 import Experience from "@/components/Experience";
 
 export default function ExperiencePage() {
     return (
-        <Experience />
+        <SlideUpAnimation>
+            <Experience />
+        </SlideUpAnimation>
     )
 }

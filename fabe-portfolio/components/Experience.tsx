@@ -7,7 +7,7 @@ export default function Experience() {
             <ul className="experience-list">
                 <li className={styles.experienceItem}>
                     <p>EduTrigger Inc. Jul 2023 - Feb 2024 Front-end intern Toronto </p>
-                    <ul>
+                    {/* <ul>
                         <li>
                             <p>Developed and implemented authentication and authorization functions using Vue.js and Auth0 platform, ensuring a secure and
 user-friendly experience for Victoria Eclass users.</p>
@@ -24,10 +24,10 @@ user-friendly experience for Victoria Eclass users.</p>
                         <li>
                             <p>Investigated and documented the installation process and steps to run the platform from scratch, providing a valuable resource for new OpenEdx developers and saving 50% of their time.</p>
                         </li>
-                    </ul>                    
-
+                    </ul>                     */}
 
                 </li>
+                {/* give each a picture */}
                 <li className="experience-item">Research Assistant at University of Toronto (2022-2023)</li>
             </ul>
         </div>
