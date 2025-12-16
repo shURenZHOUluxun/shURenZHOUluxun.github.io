@@ -1,3 +1,27 @@
 .experienceItem {
   max-width: 60em;
+  border: 0.5em solid #B6771D;
+  border-radius: 5px;
+  margin: 1em 0;
+  color: aliceblue;
+  background-color: #7B542F;
+}
+
+.experienceItem p {
+  background-color: transparent;
+  color: aliceblue;
+}
+
+.h2 {
+  font-size: 2em;
+  margin: 1em 0;
+  color: #002554;
+  text-align: center;
+}
+
+.image {
+  margin: 1em;
+  border: 0.3em solid #B6771D;
+  border-radius: 5px;
+  width: 15em;
 }

@@ -1,9 +1,11 @@
 import styles from './styles/experience.module.css';
+import Image from 'next/image';
+
 export default function Experience() {
 
     return (
         <div className="experience">
-            <h2 className="h2">Professional Experience</h2>
+            <h2 className={styles.h2}>Professional Experience</h2>
             <ul className="experience-list">
                 <li className={styles.experienceItem}>
                     <p>EduTrigger Inc. Jul 2023 - Feb 2024 Front-end intern Toronto </p>
@@ -28,7 +30,12 @@ user-friendly experience for Victoria Eclass users.</p>
 
                 </li>
                 {/* give each a picture */}
-                <li className="experience-item">Research Assistant at University of Toronto (2022-2023)</li>
+                <li className={styles.experienceItem}>
+                    <p> Front-end WeMap-Tencent (2021-2022) https://lbs.qq.com/visualization/</p>
+                    <Image className={styles.image} src="/wemap.jpg" alt="WeMap-Tencent" width={400} height={300} />
+                    <Image className={styles.image} src="/wemap2.png" alt="WeMap-Tencent" width={400} height={300} />
+                </li>
+                   
             </ul>
         </div>
     );
