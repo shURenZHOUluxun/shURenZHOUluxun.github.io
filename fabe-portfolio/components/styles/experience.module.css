@@ -23,6 +23,7 @@
   margin: 0.5em 0;
   color: aliceblue;
   background-color: transparent;
+  font-weight: bolder;
 }
 
 .h2 {
@@ -36,7 +37,7 @@
   margin: 1em;
   border: 0.3em solid #B6771D;
   border-radius: 5px;
-  width: 15em;
+  width: 13em;
 }
 
 .responsibilities {
@@ -49,6 +50,7 @@
   background-color: transparent;
   list-style: square;
   color: aliceblue;
+  color: #FFD580;
 }
 
 .link {

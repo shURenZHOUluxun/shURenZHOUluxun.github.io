@@ -9,7 +9,16 @@ export default function Experience() {
             <h2 className={styles.h2}>Professional Experience</h2>
             <ul className="experience-list">
                 <li className={styles.experienceItem}>
-                    <h3 className={styles.h3}>EduTrigger Inc. Jul 2023 - Feb 2024 Front-end intern Toronto </h3>
+                    <div className={styles.description}>
+                        <h3 className={styles.h3}>Frontend Intern @ EduTrigger Inc. Toronto(2023-2024) </h3>
+                        <ul className={styles.responsibilities}>
+                            <li>Built LMS/CMS features, Auth0 authentication, and developer tools using Vue.js and OpenEdx.</li>
+                        </ul>
+                    </div>
+                    <div className={styles.imageContainer}>
+                        <Image className={styles.image} src="/lms.jpg" alt="learning manage system" width={200} height={300} />
+                    </div>
+                    
                     {/* <ul>
                         <li>
                             <p>Developed and implemented authentication and authorization functions using Vue.js and Auth0 platform, ensuring a secure and
@@ -33,7 +42,7 @@ user-friendly experience for Victoria Eclass users.</p>
                 {/* give each a picture */}
                 <li className={styles.experienceItem}>
                     <div className={styles.description}>
-                        <h3 className={styles.h3}> Frontend Developer @ Tencent WeMap (2021-2022) </h3>
+                        <h3 className={styles.h3}> Frontend Intern @ Tencent WeMap (2021-2022) </h3>
                         <ul className={styles.responsibilities}>
                             {/* <li>
                                 <p>Built stylized 3D buildings using Three.js and base map data, enhancing map visualization appeal.</p>
