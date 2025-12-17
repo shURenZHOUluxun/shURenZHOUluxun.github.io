@@ -5,11 +5,24 @@
   margin: 1em 0;
   color: aliceblue;
   background-color: #7B542F;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+.experienceItem div {
+  background-color: transparent;
+  margin: 0 0.5em;
 }
 
 .experienceItem p {
   background-color: transparent;
   color: aliceblue;
+}
+
+.h3 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  color: aliceblue;
+  background-color: transparent;
 }
 
 .h2 {
@@ -24,4 +37,29 @@
   border: 0.3em solid #B6771D;
   border-radius: 5px;
   width: 15em;
+}
+
+.responsibilities {
+  margin-left: 1em;
+  background-color: transparent;
+}
+
+.responsibilities li {
+  margin: 0.5em;
+  background-color: transparent;
+  list-style: square;
+  color: aliceblue;
+}
+
+.link {
+  color: #FF9D00;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: larger;
+}
+
+.link:hover {
+  color: #FFD580;
+  text-decoration: underline;
+  /* font-size: larger; */
 }

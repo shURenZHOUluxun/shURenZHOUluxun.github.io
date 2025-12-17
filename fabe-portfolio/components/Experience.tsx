@@ -1,5 +1,6 @@
 import styles from './styles/experience.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Experience() {
 
@@ -8,7 +9,7 @@ export default function Experience() {
             <h2 className={styles.h2}>Professional Experience</h2>
             <ul className="experience-list">
                 <li className={styles.experienceItem}>
-                    <p>EduTrigger Inc. Jul 2023 - Feb 2024 Front-end intern Toronto </p>
+                    <h3 className={styles.h3}>EduTrigger Inc. Jul 2023 - Feb 2024 Front-end intern Toronto </h3>
                     {/* <ul>
                         <li>
                             <p>Developed and implemented authentication and authorization functions using Vue.js and Auth0 platform, ensuring a secure and
@@ -31,9 +32,43 @@ user-friendly experience for Victoria Eclass users.</p>
                 </li>
                 {/* give each a picture */}
                 <li className={styles.experienceItem}>
-                    <p> Front-end WeMap-Tencent (2021-2022) https://lbs.qq.com/visualization/</p>
-                    <Image className={styles.image} src="/wemap.jpg" alt="WeMap-Tencent" width={400} height={300} />
-                    <Image className={styles.image} src="/wemap2.png" alt="WeMap-Tencent" width={400} height={300} />
+                    <div className={styles.description}>
+                        <h3 className={styles.h3}> Frontend Developer @ Tencent WeMap (2021-2022) </h3>
+                        <ul className={styles.responsibilities}>
+                            {/* <li>
+                                <p>Built stylized 3D buildings using Three.js and base map data, enhancing map visualization appeal.</p>
+                            </li>
+                            <li>
+                                <p>Developed screenshot feature for Keep’s motion-track sharing via html2canvas, tripling development efficiency.</p>
+                            </li>
+                            <li>
+                                <p>Migrated map engine to a new Three.js-based architecture; optimized logic and reduced module coupling.</p>
+                            </li>
+                            <li>
+                                <p>Integrated map engine with Blue Whale DevOps CI/CD and TKE, cutting deployment time by 70%.</p>
+                            </li>
+                            <li>
+                                <p>Implemented NeRF-based 3D scene reconstruction on Google Colab, reducing runtime cost by 90%.</p>
+                            </li> */}
+                            <li>
+                                <Link 
+                                    href="https://lbs.qq.com/visualization/" 
+                                    className={styles.link} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    >WeMap</Link> is Tencent’s 3D mapping engine used in navigation and motion-tracking apps.
+                                {/* WeMap is Tencent’s 3D mapping engine used in navigation and motion-tracking apps.: https://lbs.qq.com/visualization/ */}
+                            </li>
+                            <li>I contributed to advanced 3D map visualization features using Three.js, engine migration, CI/CD automation, and NeRF-based scene reconstruction.</li>
+                            {/* <li>Built advanced 3D map visualization features using Three.js, DevOps tooling, and NeRF-based reconstruction to enhance performance and developer efficiency for Tencent WeMap.</li> */}
+                        </ul>
+                    </div>
+                    <div className={styles.imageContainer}>
+                        <Image className={styles.image} src="/wemap.jpg" alt="WeMap-Tencent" width={400} height={300} />
+                        <Image className={styles.image} src="/wemap2.png" alt="WeMap-Tencent" width={400} height={300} />
+                    </div>
+                    
+                    
                 </li>
                    
             </ul>
