@@ -20,7 +20,8 @@
 
 .h3 {
   font-size: 1.5em;
-  margin: 0.5em 0;
+  margin-left: 1.5em;
+  margin-top: 1em;
   color: aliceblue;
   background-color: transparent;
   font-weight: bolder;
@@ -41,7 +42,7 @@
 }
 
 .responsibilities {
-  margin-left: 1em;
+  margin: 0 2em;
   background-color: transparent;
 }
 
@@ -61,7 +62,7 @@
 }
 
 .link:hover {
-  color: #FFD580;
+  color: aliceblue;
   text-decoration: underline;
   /* font-size: larger; */
 }

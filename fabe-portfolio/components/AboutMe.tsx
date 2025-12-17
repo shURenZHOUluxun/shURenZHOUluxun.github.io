@@ -3,16 +3,17 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { RiProfileFill } from "react-icons/ri";
 import styles from './styles/aboutmehome.module.css';
+import { style } from "motion/react-client";
 
 export default function AboutMe() {
     return (
         <div id={styles.aboutme}>
             {/* <h2 className="h2">About Me</h2> */}
-            <p className="description">Hello! I&apos;m Fabe Jiayi Zeng, 
+            <p className={styles.description}>Hello! I&apos;m Fabe Jiayi Zeng, 
                 a software engineer passionate about web development and design. 
                 This is my personal website where I share my projects and interests.
             </p>
-            <ul className="Contact-info">
+            <ul className={styles.contactInfo}>
                 <li className={styles.contactitem}>
                     <MdEmail className={styles.icon}/>
                     <p>Email: zengjiayifabe@outlook.com</p>
