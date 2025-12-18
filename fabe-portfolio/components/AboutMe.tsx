@@ -19,19 +19,19 @@ export default function AboutMe() {
                     <p>Email: zengjiayifabe@outlook.com</p>
                 </li>
                 <li className={styles.contactitem}>
-                    <a href="https://www.linkedin.com/in/jiayi-zeng-0207/">
+                    <a href="https://www.linkedin.com/in/jiayi-zeng-0207/" rel="noopener noreferrer" target="_blank">
                         <FaLinkedin className={styles.icon}/>
                         <p>LinkedIn: Click Here</p>
                     </a>
                     </li>
                 <li className={styles.contactitem}>
-                    <a href="https://github.com/shURenZHOUluxun" >
+                    <a href="https://github.com/shURenZHOUluxun" rel="noopener noreferrer" target="_blank">
                         <FaGithub className={styles.icon}/>
                         <p>Github: Click Here</p>
                     </a>
                 </li>
                 <li className={styles.contactitem}>
-                    <a href="/Fabe_Zeng_CV.pdf" download="Fabe_Zeng_CV.pdf">
+                    <a href="/Fabe_Zeng_CV.pdf" download="Fabe_Zeng_CV.pdf" rel="noopener noreferrer">
                         <RiProfileFill className={styles.icon}/>
                         <p>Download CV: Click Here</p>
                     </a>
