@@ -34,3 +34,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Deploy on Github pages
+make sure you delete out folder and docs folder at first.
+```bash
+npm run build
+```
+then you will see a out/ folder
+then cd to your root folder
+```bash
+cd ..
+cp -R fabe-portfolio/out ./docs
+```
+to rename the out folder to docs and place it at the root folder

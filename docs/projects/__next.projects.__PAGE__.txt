@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"buildId":"vXojtk0JEepkYtwP_ojC-","rsc":["$","$1","c",{"children":[["$","div",null,{"id":"projects","children":[["$","h2",null,{"className":"h2","children":"My Projects"}],["$","ul",null,{"className":"project-list","children":[["$","li",null,{"className":"project-item","children":["$","a",null,{"href":"./games/rockPaperScissors.html","children":"Project 1: Rock Paper Scissors Game"}]}],["$","li",null,{"className":"project-item","children":["$","a",null,{"children":"Project 2: E-commerce Platform"}]}],["$","li",null,{"className":"project-item","children":["$","a",null,{"children":"Project 3: Blogging Application"}]}],["$","li",null,{"className":"project-item","children":["$","a",null,{"children":"Project 4: Mario Game"}]}],["$","li",null,{"className":"project-item","children":["$","a",null,{"children":"Project 5: Redit Client"}]}]]}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null
