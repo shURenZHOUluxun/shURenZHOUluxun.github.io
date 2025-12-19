@@ -41,6 +41,12 @@
   width: 13em;
 }
 
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .responsibilities {
   margin: 0 2em;
   background-color: transparent;

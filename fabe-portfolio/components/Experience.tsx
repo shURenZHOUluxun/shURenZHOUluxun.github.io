@@ -10,6 +10,17 @@ export default function Experience() {
             <ul className="experience-list">
                 <li className={styles.experienceItem}>
                     <div className={styles.description}>
+                        <h3 className={styles.h3}>AI Evaluation Specialist <br/>@ Outlier AI <br/> (2025) </h3>
+                        <ul className={styles.responsibilities}>
+                            <li>Evaluated 500+ model responses, including outputs in multiple programming languages, across 7 quality dimensions with 95%+ consistency.</li>
+                        </ul>
+                    </div>
+                    <div className={styles.imageContainer}>
+                        <Image className={styles.image} src="/outlier.svg" alt="outlier ai company" width={400} height={300} />
+                    </div>
+                </li>
+                <li className={styles.experienceItem}>
+                    <div className={styles.description}>
                         <h3 className={styles.h3}>Frontend Intern<br/> @ EduTrigger Inc. Toronto <br/> (2023-2024) </h3>
                         <ul className={styles.responsibilities}>
                             <li>Built LMS/CMS features, Auth0 authentication, and developer tools using Vue.js and OpenEdx.</li>

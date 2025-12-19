@@ -5,9 +5,9 @@ export default function Header() {
         <header>
             <div className="logo">JZ</div>
             <nav>
-                <Link href="/">Home</Link>
-                <Link href="/aboutme">About Me</Link>
-                <Link href="/projects">Projects</Link>
+                <Link href="/" rel="noopener noreferrer">Home</Link>
+                <Link href="/aboutme" rel="noopener noreferrer">About Me</Link>
+                {/* <Link href="/projects" rel="noopener noreferrer">Projects</Link> */}
             <a href="#footer">Contact</a>
             </nav>
         </header>

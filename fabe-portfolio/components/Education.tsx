@@ -10,11 +10,11 @@ export default function Education() {
                 {/* <Image src='/UofT_Logo.png' alt="University of Toronto Logo" width={300} height={123.17} /> */}
                 <li className={styles.educationItem}>
                     <FaGraduationCap className={styles.icon} />
-                    <p>M.Eng. in Mechanical Engineering, University of Toronto</p>
+                    <p>M.Eng. in Mechanical Engineering, University of Toronto (2023-2024)</p>
                 </li>
                 <li className={styles.educationItem}>
                     <FaGraduationCap className={styles.icon} />
-                    <p>B.Sc. in Computer Science, University of Toronto</p>
+                    <p>B.Sc. in Computer Science, University of Toronto (2018-2023)</p>
                 </li>
             </ul>
             
