@@ -47,3 +47,9 @@ cd ..
 cp -R fabe-portfolio/out ./docs
 ```
 to rename the out folder to docs and place it at the root folder
+then creat .nojekyll inside docs folder
+Because GitHub Pages automatically runs Jekyll on every site by default.
+Jekyll has a rule:
+Folders that start with _ are ignored.
+But Next.js static exports rely heavily on a folder named:
+_next/
