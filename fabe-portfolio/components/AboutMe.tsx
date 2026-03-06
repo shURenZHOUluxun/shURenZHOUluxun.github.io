@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { RiProfileFill } from "react-icons/ri";
+import { MdEmojiObjects } from "react-icons/md";
 import styles from './styles/aboutmehome.module.css';
 import { style } from "motion/react-client";
 
@@ -28,6 +29,12 @@ export default function AboutMe() {
                     <a href="https://github.com/shURenZHOUluxun" rel="noopener noreferrer" target="_blank">
                         <FaGithub className={styles.icon}/>
                         <p>Github: Click Here</p>
+                    </a>
+                </li>
+                <li className={styles.contactitem}>
+                    <a href="https://mini-twitter-umber.vercel.app/" rel="noopener noreferrer" target="_blank">
+                        <MdEmojiObjects className={styles.icon}/>
+                        <p>Full Stack Project Demo: Click Here</p>
                     </a>
                 </li>
                 <li className={styles.contactitem}>

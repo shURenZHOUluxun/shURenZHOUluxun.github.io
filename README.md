@@ -7,7 +7,7 @@ Live demo: https://shurenzhouluxun.github.io/
 
 ## Features
 - Static portfolio site (HTML, CSS, JS)
-- Small games under `games/` (e.g., Rock–Paper–Scissors)
+- Demo for full stack project: https://mini-twitter-umber.vercel.app/
 - Responsive header and simple layout
 
 ## 🚀 Tech Stack
