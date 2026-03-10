@@ -31,18 +31,18 @@ export default function AboutMe() {
                         <p>Github: Click Here</p>
                     </a>
                 </li>
-                <li className={styles.contactitem}>
+                {/* <li className={styles.contactitem}>
                     <a href="https://mini-twitter-umber.vercel.app/" rel="noopener noreferrer" target="_blank">
                         <MdEmojiObjects className={styles.icon}/>
                         <p>Full Stack Project Demo: Click Here</p>
                     </a>
-                </li>
-                <li className={styles.contactitem}>
+                </li> */}
+                {/* <li className={styles.contactitem}>
                     <a href="/Fabe_Zeng_CV.pdf" download="Fabe_Zeng_CV.pdf" rel="noopener noreferrer">
                         <RiProfileFill className={styles.icon}/>
                         <p>Download CV: Click Here</p>
                     </a>
-                </li>
+                </li> */}
             </ul>
             <Image alt="about me" width={400} height={400} src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
         </div>

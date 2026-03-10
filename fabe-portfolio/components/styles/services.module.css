@@ -1,0 +1,124 @@
+
+.page {
+  min-height: 100vh;
+  padding: 80px 24px;
+  /* background: #0b0f19; */
+  color: #f5f7fb;
+}
+
+.hero {
+  max-width: 800px;
+  margin: 0 auto 56px;
+  text-align: center;
+}
+
+.eyebrow {
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #1f2f76;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #1f2f76;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 280px;
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.02)
+  );
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+  transition: transform 0.25s ease, border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(142, 163, 255, 0.45);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+}
+
+.cardContent {
+  margin-bottom: 24px;
+}
+
+.cardTitle {
+  font-size: 1.45rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.cardDescription {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: #1f2f76;
+  margin-bottom: 18px;
+}
+
+.tech {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #051662;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: #8ea3ff;
+  color: #0b0f19;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.button:hover {
+  background: #a5b6ff;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 64px 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-height: auto;
+  }
+}

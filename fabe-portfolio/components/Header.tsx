@@ -6,7 +6,8 @@ export default function Header() {
             <div className="logo">JZ</div>
             <nav>
                 <Link href="/" rel="noopener noreferrer">Home</Link>
-                <Link href="/aboutme" rel="noopener noreferrer">About Me</Link>
+                <Link href="/aboutme" rel="noopener noreferrer">Resume</Link>
+                <Link href="/services" rel="noopener noreferrer">Services</Link>
                 {/* <Link href="/projects" rel="noopener noreferrer">Projects</Link> */}
             {/* <a href="#footer">Contact</a> */}
             </nav>

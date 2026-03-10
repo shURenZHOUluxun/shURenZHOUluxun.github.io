@@ -45,7 +45,7 @@ h1 {
     width: 1.5em;
     margin: 0 1em;
     background-color: transparent;
-    color: black;
+    color: #FF9D00;
     font-weight: bolder;
 }
 
@@ -64,7 +64,7 @@ header{
     height: 3em;
     display: flex;
     align-items: center;
-    background-color: #FF9D00;
+    background-color: #7B542F;
     border-bottom: #B6771D 0.2em solid;
 }
 
@@ -74,20 +74,20 @@ nav {
     text-align: center;
     right: 0;
     margin-right: 1em;
-    background-color: #FF9D00;
+    background-color: #7B542F;
 }
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 0 1em;
     font-weight: bold;
-    background-color: #FF9D00;
+    background-color: #7B542F;
 }
 
 nav a:hover {
     text-decoration: underline; 
-    color: #7B542F;
+    color: #FF9D00;
 }
 
 #projects {
