@@ -35,3 +35,29 @@
 .childrenDivider {
   margin-left: 2em;
 }
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+
+  .buttonDivider {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 0;
+  }
+
+  .buttonLink {
+    width: auto;
+    min-width: 7em;
+    margin: 0;
+    flex: 1 1 calc(33.333% - 0.5em);
+    padding: 0.6em 0.8em;
+  }
+
+  .childrenDivider {
+    margin-left: 0;
+  }
+}
