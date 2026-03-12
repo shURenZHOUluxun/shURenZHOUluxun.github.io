@@ -10,6 +10,8 @@ export default function AboutMe() {
     return (
         <div id={styles.aboutme}>
             {/* <h2 className="h2">About Me</h2> */}
+            <h1 className={styles.h1}>Hello! Bonjour! I&apos;m Fabe</h1>
+            <p className={styles.welcome}>Welcome to my website!</p>
             <p className={styles.description}>Hello! I&apos;m Fabe Jiayi Zeng, 
                 a software engineer passionate about web development and design. 
                 This is my personal website where I share my projects and interests.
