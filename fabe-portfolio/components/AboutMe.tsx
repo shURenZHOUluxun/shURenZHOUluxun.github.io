@@ -1,10 +1,7 @@
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { RiProfileFill } from "react-icons/ri";
-import { MdEmojiObjects } from "react-icons/md";
 import styles from './styles/aboutmehome.module.css';
-import { style } from "motion/react-client";
 
 export default function AboutMe() {
     return (
